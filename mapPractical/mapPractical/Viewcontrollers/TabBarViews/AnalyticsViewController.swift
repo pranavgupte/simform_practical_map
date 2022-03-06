@@ -48,6 +48,6 @@ class AnalyticsViewController: UIViewController {
         }
     }
     deinit{
-        print("Deinit")
+        print("Analytics Deinit")
     }
 }

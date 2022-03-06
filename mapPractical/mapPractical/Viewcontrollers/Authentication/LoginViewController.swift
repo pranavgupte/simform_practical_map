@@ -33,6 +33,6 @@ class LoginViewController: UIViewController {
         }
     }
     deinit{
-        print("Deinit")
+        print("Login Deinit")
     }
 }

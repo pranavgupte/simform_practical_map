@@ -20,7 +20,7 @@
                                 <rect key="frame" x="52" y="348" width="310" height="200"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Usernama" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6ih-nL-UTT">
-                                        <rect key="frame" x="0.0" y="60" width="310" height="34"/>
+                                        <rect key="frame" x="0.0" y="55" width="310" height="34"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -30,7 +30,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zvA-Vo-nqR">
-                                        <rect key="frame" x="0.0" y="110" width="310" height="34"/>
+                                        <rect key="frame" x="0.0" y="105" width="310" height="34"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -40,11 +40,10 @@
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7c-w0-ekg">
-                                        <rect key="frame" x="80" y="160" width="150" height="40"/>
+                                        <rect key="frame" x="0.0" y="155" width="310" height="45"/>
                                         <color key="backgroundColor" red="0.0" green="0.68627450980392157" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="lid-uR-VUv"/>
-                                            <constraint firstAttribute="width" constant="150" id="req-rY-ggO"/>
+                                            <constraint firstAttribute="height" constant="45" id="lid-uR-VUv"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -57,7 +56,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎉 Welcome 🎉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1E-KP-UNy">
-                                        <rect key="frame" x="82" y="10" width="146" height="24"/>
+                                        <rect key="frame" x="82" y="5" width="146" height="24"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -69,8 +68,9 @@
                                     <constraint firstItem="zvA-Vo-nqR" firstAttribute="leading" secondItem="GHc-uQ-5jn" secondAttribute="leading" id="8Bk-RI-yLm"/>
                                     <constraint firstItem="c7c-w0-ekg" firstAttribute="top" secondItem="zvA-Vo-nqR" secondAttribute="bottom" constant="16" id="EON-jG-T4m"/>
                                     <constraint firstItem="6ih-nL-UTT" firstAttribute="leading" secondItem="GHc-uQ-5jn" secondAttribute="leading" id="IpZ-2h-9qW"/>
-                                    <constraint firstItem="v1E-KP-UNy" firstAttribute="top" secondItem="GHc-uQ-5jn" secondAttribute="top" constant="10" id="JBg-YX-qoM"/>
-                                    <constraint firstItem="c7c-w0-ekg" firstAttribute="centerX" secondItem="GHc-uQ-5jn" secondAttribute="centerX" id="L8H-Jb-KE5"/>
+                                    <constraint firstItem="v1E-KP-UNy" firstAttribute="top" secondItem="GHc-uQ-5jn" secondAttribute="top" constant="5" id="JBg-YX-qoM"/>
+                                    <constraint firstItem="c7c-w0-ekg" firstAttribute="leading" secondItem="GHc-uQ-5jn" secondAttribute="leading" id="NNk-NY-vH8"/>
+                                    <constraint firstAttribute="trailing" secondItem="c7c-w0-ekg" secondAttribute="trailing" id="Olg-sH-YGs"/>
                                     <constraint firstAttribute="trailing" secondItem="zvA-Vo-nqR" secondAttribute="trailing" id="QB6-Hv-wdu"/>
                                     <constraint firstItem="6ih-nL-UTT" firstAttribute="top" secondItem="v1E-KP-UNy" secondAttribute="bottom" constant="26" id="ca6-79-ZC8"/>
                                     <constraint firstAttribute="width" constant="310" id="f4l-Bn-mcX"/>
@@ -96,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-191" y="800"/>
+            <point key="canvasLocation" x="-191.30434782608697" y="799.55357142857144"/>
         </scene>
         <!--Title-->
         <scene sceneID="1Mm-NQ-e5m">

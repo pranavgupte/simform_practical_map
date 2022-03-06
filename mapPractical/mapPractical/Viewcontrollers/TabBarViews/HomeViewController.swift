@@ -94,7 +94,7 @@ class HomeViewController: UIViewController, MKMapViewDelegate {
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
     }
     deinit{
-        print("Deinit")
+        print("Home Deinit")
     }
 }
 // MARK: View controller extenstions

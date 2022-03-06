@@ -33,6 +33,6 @@ class OptionsMapViewController: UIViewController, MKMapViewDelegate {
         return MKOverlayRenderer()
     }
     deinit{
-        print("Deinit")
+        print("Options Map Deinit")
     }
 }
